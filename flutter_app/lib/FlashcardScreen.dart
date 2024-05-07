@@ -106,7 +106,16 @@ var data = {
     {"image": "assets/images/b.webp", "result": "B"},
     {"image": "assets/images/c.webp", "result": "C"},
     {"image": "assets/images/d.webp", "result": "D"},
-    {"image": "assets/images/e.webp", "result": "E"}
+    {"image": "assets/images/e.webp", "result": "E"},
+    {"image": "assets/images/F.jpg", "result": "F"},
+    {"image": "assets/images/G.jpg", "result": "G"},
+    {"image": "assets/images/I.jpg", "result": "I"},
+    {"image": "assets/images/M.jpg", "result": "M"},
+    {"image": "assets/images/R.jpg", "result": "R"},
+    {"image": "assets/images/O.jpg", "result": "O"},
+    {"image": "assets/images/V.jpg", "result": "V"},
+    {"image": "assets/images/W.jpg", "result": "W"},
+    {"image": "assets/images/Y.jpg", "result": "Y"}
   ],
   "Basics": [
     {"word": "Bonjour", "result": "Hello"},
