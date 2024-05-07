@@ -106,7 +106,8 @@ var data = {
     {"image": "assets/images/b.webp", "result": "B"},
     {"image": "assets/images/c.webp", "result": "C"},
     {"image": "assets/images/d.webp", "result": "D"},
-    {"image": "assets/images/e.webp", "result": "E"}
+    {"image": "assets/images/e.webp", "result": "E"},
+    {"image": "assets/images/I.jpg", "result": "I"}
   ],
   "Basics": [
     {"word": "Bonjour", "result": "Hello"},
