@@ -34,7 +34,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
         backgroundColor: const Color(0xffA7D397),
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("Learning Made Easy"),
+          title: const Text("Quick Sign Learning"),
           elevation: 5,
         ),
         body: Center(
@@ -105,32 +105,28 @@ var data = {
     {"image": "assets/images/a.webp", "result": "A"},
     {"image": "assets/images/b.webp", "result": "B"},
     {"image": "assets/images/c.webp", "result": "C"},
-    {"image": "assets/images/d.webp", "result": "D"},
-    {"image": "assets/images/e.webp", "result": "E"},
-<<<<<<< HEAD
-    {"image": "assets/images/I.jpg", "result": "I"}
-=======
+    {"image": "assets/images/D.jpg", "result": "D"},
+    {"image": "assets/images/E.jpg", "result": "E"},
     {"image": "assets/images/F.jpg", "result": "F"},
     {"image": "assets/images/G.jpg", "result": "G"},
+    {"image": "assets/images/H.jpg", "result": "H"},
     {"image": "assets/images/I.jpg", "result": "I"},
-    {"image": "assets/images/M.jpg", "result": "M"},
-    {"image": "assets/images/R.jpg", "result": "R"},
+    {"image": "assets/images/L.jpg", "result": "L"},
+    {"image": "assets/images/imageM.jpg", "result": "M"},
     {"image": "assets/images/O.jpg", "result": "O"},
+    {"image": "assets/images/R.jpg", "result": "R"},
+    {"image": "assets/images/S.jpg", "result": "S"},
+    {"image": "assets/images/T.jpg", "result": "T"},
     {"image": "assets/images/V.jpg", "result": "V"},
     {"image": "assets/images/W.jpg", "result": "W"},
     {"image": "assets/images/Y.jpg", "result": "Y"}
->>>>>>> 44f6de3a51304a67ff33a0602b750e2369322942
   ],
   "Basics": [
-    {"word": "Bonjour", "result": "Hello"},
-    {"word": "Bye", "result": "Au revoir"}
+    {"word": "IMAGE PENDING", "result": "Hello"},
+    {"word": "IMAGE PENDING", "result": "Bye"}
   ],
-  "Travel": [
-    {"word": "Hostel", "result": "Auberge"},
-    {"word": "Journey", "result": "Voyage"}
-  ],
-  "School": [
-    {"word": "Teacher", "result": "Professeure/Professeur"},
-    {"word": "classmate", "result": "camarade de classe"}
+  "Numbers": [
+    {"word": "IMAGE PENDING", "result": "2"},
+    {"word": "IMAGE PENDING", "result": "4"}
   ]
 };

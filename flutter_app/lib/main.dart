@@ -13,10 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Learning App',
+      title: 'Sign Language Learning Module',
       theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)),
-      home: const MyHomePage(title: 'Sample Learning App'),
+      home: const MyHomePage(title: 'Sample Learning Module'),
     );
   }
 }

@@ -41,10 +41,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   crossAxisSpacing: 10.0,
                   padding: const EdgeInsets.all(10.0),
                   children: <Widget>[
-                    _buildCard("Basics"),
                     _buildCard("Alphabet"),
-                    _buildCard("Travel"),
-                    _buildCard("School"),
+                    _buildCard("Basics"),
+                    _buildCard("Numbers"),
                   ],
                 ),
               ),
