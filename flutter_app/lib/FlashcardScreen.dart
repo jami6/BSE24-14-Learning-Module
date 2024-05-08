@@ -78,7 +78,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Center(
-                            child: Text(jsonData[_currItem]["result"] ?? "",
+                            child: Text(jsonData[_currItem]["letter"] ?? "",
                                 textAlign: TextAlign.center, style: textStyle),
                           ),
                         ),
