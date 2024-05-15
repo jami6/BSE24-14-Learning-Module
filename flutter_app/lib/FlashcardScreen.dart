@@ -1,6 +1,6 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
-//import 'package:today_app/data.dart';
+import 'package:flutter_app/data.dart';
 
 class FlashcardScreen extends StatefulWidget {
   final String category;
@@ -34,7 +34,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
         backgroundColor: const Color(0xffA7D397),
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("Learning Made Easy"),
+          title: const Text("Quick Sign Learning"),
           elevation: 5,
         ),
         body: Center(
@@ -78,7 +78,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         child: Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Center(
-                            child: Text(jsonData[_currItem]["result"] ?? "",
+                            child: Text(jsonData[_currItem]["letter"] ?? "",
                                 textAlign: TextAlign.center, style: textStyle),
                           ),
                         ),
@@ -97,36 +97,3 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                 ])));
   }
 }
-
-
-//small json data assigned to variable data to be used in FlashcardScreen widget
-var data = {
-  "Alphabet": [
-    {"image": "assets/images/a.webp", "result": "A"},
-    {"image": "assets/images/b.webp", "result": "B"},
-    {"image": "assets/images/c.webp", "result": "C"},
-    {"image": "assets/images/d.webp", "result": "D"},
-    {"image": "assets/images/e.webp", "result": "E"},
-    {"image": "assets/images/F.jpg", "result": "F"},
-    {"image": "assets/images/G.jpg", "result": "G"},
-    {"image": "assets/images/I.jpg", "result": "I"},
-    {"image": "assets/images/M.jpg", "result": "M"},
-    {"image": "assets/images/R.jpg", "result": "R"},
-    {"image": "assets/images/O.jpg", "result": "O"},
-    {"image": "assets/images/V.jpg", "result": "V"},
-    {"image": "assets/images/W.jpg", "result": "W"},
-    {"image": "assets/images/Y.jpg", "result": "Y"}
-  ],
-  "Basics": [
-    {"word": "Bonjour", "result": "Hello"},
-    {"word": "Bye", "result": "Au revoir"}
-  ],
-  "Travel": [
-    {"word": "Hostel", "result": "Auberge"},
-    {"word": "Journey", "result": "Voyage"}
-  ],
-  "School": [
-    {"word": "Teacher", "result": "Professeure/Professeur"},
-    {"word": "classmate", "result": "camarade de classe"}
-  ]
-};
