@@ -46,7 +46,7 @@ class Result extends StatelessWidget {
             textAlign: TextAlign.center,
           ), //Text
           TextButton(
-            onPressed: resetHandler(),
+            onPressed: ()=>resetHandler(),
             child: Container(
               color: Colors.green,
               padding: const EdgeInsets.all(14),
