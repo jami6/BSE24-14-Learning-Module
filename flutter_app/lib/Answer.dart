@@ -13,11 +13,11 @@ class Answer extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: selectHandler(),
+        onPressed: ()=> selectHandler(),
         style: ButtonStyle(
             textStyle:
-                MaterialStateProperty.all(const TextStyle(color: Colors.white)),
-            backgroundColor: MaterialStateProperty.all(Colors.green)),
+                MaterialStateProperty.all(const TextStyle(color: Colors.green)),
+            backgroundColor: MaterialStateProperty.all(Colors.white)),
         child: Text(answerText),
       ),
 

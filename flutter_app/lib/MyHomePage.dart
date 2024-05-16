@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/MyAppState.dart';
 
 import 'FlashcardScreen.dart';
 
@@ -42,8 +43,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   padding: const EdgeInsets.all(10.0),
                   children: <Widget>[
                     _buildCard("Alphabet"),
-                    _buildCard("Basics"),
                     _buildCard("Numbers"),
+                    _buildCard("Basics"),
+                    _buildQuizCard("Quiz"),
                   ],
                 ),
               ),
@@ -65,13 +67,40 @@ class _MyHomePageState extends State<MyHomePage> {
         height: 200,
         width: 200,
         decoration: const BoxDecoration(
-            color: Color(0xffA7D397),
+            color: Colors.white,
             borderRadius: BorderRadius.all(Radius.circular(20))),
         child: Center(
           child: Text(
             text,
             style: const TextStyle(
-              color: Colors.white,
+              color: Colors.green,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildQuizCard(String text) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => MyAppState(),
+        ));
+      },
+      child: Container(
+        height: 200,
+        width: 200,
+        decoration: const BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.all(Radius.circular(20))),
+        child: Center(
+          child: Text(
+            text,
+            style: const TextStyle(
+              color: Colors.green,
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),

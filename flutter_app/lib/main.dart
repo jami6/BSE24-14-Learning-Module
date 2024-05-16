@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Sign Language Learning Module',
       theme: ThemeData(
           colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)),
-      home: const MyHomePage(title: 'Sample Learning App'),
+      home: const MyHomePage(title: 'Sample Learning Module'),
       
     );
   }

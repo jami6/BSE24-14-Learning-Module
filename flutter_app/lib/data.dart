@@ -1,8 +1,6 @@
 //small json data assigned to variable data to be used in FlashcardScreen widget
 var data = {
   "Alphabet": [
-    {"image": "IMAGE PENDING", "letter": "A"},
-    {"image": "IMAGE PENDING", "letter": "B"},
     {"image": "assets/images/C.jpg", "letter": "C"},
     {"image": "assets/images/D.jpg", "letter": "D"},
     {"image": "assets/images/E.jpg", "letter": "E"},
@@ -25,7 +23,7 @@ var data = {
     {"image": "IMAGE PENDING", "letter": "Bye"}
   ],
   "Numbers": [
-    {"image": "IMAGE PENDING", "letter": "2"},
-    {"image": "IMAGE PENDING", "letter": "4"}
+    {"image": "assets/images/3.jpg", "letter": "3"},
+    {"image": "assets/images/4.jpg", "letter": "4"}
   ]
 };

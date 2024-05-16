@@ -100,16 +100,24 @@ class _MyAppStateState extends State<MyAppState> {
         ),
         body: Padding(
           padding: const EdgeInsets.all(30.0),
-          child: _questionIndex < _questions.length
-              ? Quiz(
-                  answerQuestion: _answerQuestion,
-                  questionIndex: _questionIndex,
-                  questions: _questions,
-                ) //Quiz
-              : Result(_totalScore, _resetQuiz),
+          child:_buildBody(),
         ), //Padding
       ), //Scaffold
       debugShowCheckedModeBanner: false,
     ); //MaterialApp
   }
+
+   Widget _buildBody()
+  {
+    if (_questionIndex < _questions.length) {
+      return Quiz(
+        answerQuestion: _answerQuestion,
+        questionIndex: _questionIndex,
+        questions: _questions,
+      ); //Quiz
+    } else {
+      return Result(_totalScore, _resetQuiz);
+    }
+  }
+
 }
