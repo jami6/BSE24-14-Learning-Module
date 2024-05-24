@@ -4,7 +4,7 @@ import './Answer.dart';
 import './Question.dart';
 
 class Quiz extends StatelessWidget {
-  final List<Map<String, Object>> questions;
+  final List<Map<String, dynamic>> questions;
   final int questionIndex;
   final Function answerQuestion;
 
@@ -22,7 +22,7 @@ class Quiz extends StatelessWidget {
         Question(
           questions[questionIndex]['questionText'].toString(),
         ), //Question
-        ...(questions[questionIndex]['answers'] as List<Map<String, Object>>)
+        ...(questions[questionIndex]['answers'] as List<Map<String, dynamic>>)
             .map((answer) {
           return Answer(
               () => answerQuestion(answer['score']), answer['text'].toString());

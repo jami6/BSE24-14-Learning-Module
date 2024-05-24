@@ -8,9 +8,10 @@ class MyAppState extends StatefulWidget {
 }
 
 class _MyAppStateState extends State<MyAppState> {
-  final _questions = const [
+  final List<Map<String, dynamic>> _questions = const [
     {
       'questionText': 'Q1. Who created Flutter?',
+      'image': 'assets/images/C.jpg',
       'answers': [
         {'text': 'Facebook', 'score': -2},
         {'text': 'Adobe', 'score': -2},
@@ -110,11 +111,39 @@ class _MyAppStateState extends State<MyAppState> {
    Widget _buildBody()
   {
     if (_questionIndex < _questions.length) {
-      return Quiz(
-        answerQuestion: _answerQuestion,
-        questionIndex: _questionIndex,
-        questions: _questions,
-      ); //Quiz
+      return Column(
+       children: [
+          // Display the question text
+          Text(_questions[_questionIndex]['questionText']),
+          // Display the image
+          SizedBox(
+            width: 300,
+            height: 300,
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(25)),
+                elevation: 7,
+                shadowColor: Colors.grey,
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Center(
+                    child: Image.asset(_questions[_questionIndex]['image'],
+                    fit: BoxFit.cover,
+                    width: 300.0,
+                    height: 400.0,
+                    alignment: Alignment.center),
+                  ),
+                ),
+            ),
+          ),
+          // Display the answers
+          Quiz(
+            answerQuestion: _answerQuestion,
+            questionIndex: _questionIndex,
+            questions: _questions,
+          ),
+        ],
+      );
     } else {
       return Result(_totalScore, _resetQuiz);
     }
