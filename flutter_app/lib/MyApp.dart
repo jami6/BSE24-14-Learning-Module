@@ -25,6 +25,30 @@ class _MyAppState extends State<MyApp> {
       'image': 'assets/images/K.jpg',
       'correctAnswer' : 'K'
     },
+    {
+      'image': 'assets/images/F.jpg',
+      'correctAnswer' : 'F'
+    },
+    {
+      'image': 'assets/images/R.jpg',
+      'correctAnswer' : 'R'
+    },
+    {
+      'image': 'assets/images/E.jpg',
+      'correctAnswer' : 'E'
+    },
+    {
+      'image': 'assets/images/I.jpg',
+      'correctAnswer' : 'I'
+    },
+    {
+      'image': 'assets/images/R.jpg',
+      'correctAnswer' : 'R'
+    },
+    {
+      'image': 'assets/images/D.jpg',
+      'correctAnswer' : 'D'
+    },
   ];
 
   final TextEditingController _controller = TextEditingController();
