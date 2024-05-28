@@ -16,12 +16,12 @@ class Result extends StatelessWidget {
       resultText = 'You are awesome!';
       print(resultScore);
     } else if (resultScore >= 31) {
-      resultText = 'Pretty likeable!';
+      resultText = 'This is good!';
       print(resultScore);
     } else if (resultScore >= 21) {
-      resultText = 'You need to work more!';
+      resultText = 'You need to learn more!';
     } else if (resultScore >= 1) {
-      resultText = 'You need to work hard!';
+      resultText = 'A bit weak!';
     } else {
       resultText = 'This is a poor score!';
       print(resultScore);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/MyAppState.dart';
+import 'package:flutter_app/MyApp.dart';
 
 import 'FlashcardScreen.dart';
 
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return GestureDetector(
       onTap: () {
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => MyAppState(),
+          builder: (context) => MyApp(),
         ));
       },
       child: Container(

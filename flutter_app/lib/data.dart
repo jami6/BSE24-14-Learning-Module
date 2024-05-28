@@ -25,5 +25,5 @@ var data = {
   "Numbers": [
     {"image": "assets/images/3.jpg", "letter": "3"},
     {"image": "assets/images/4.jpg", "letter": "4"}
-  ]
+  ],
 };

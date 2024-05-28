@@ -42,7 +42,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "Guess the Sign and Flip! ????",
+                    "Guess the Sign and Flip!",
                     style: TextStyle(fontSize: 30, color: Colors.green.shade900),
                   ),
                   const SizedBox(height: 20),
