@@ -32,9 +32,12 @@ var data = {
     {"image": "IMAGE PENDING", "letter": "Bye"}
   ],
   "Numbers": [
+    {"image": "assets/images/1.jpg", "letter": "1"},
+    {"image": "assets/images/2.jpg", "letter": "2"},
     {"image": "assets/images/3.jpg", "letter": "3"},
     {"image": "assets/images/4.jpg", "letter": "4"},
     {"image": "assets/images/4.jpg", "letter": "5"},
+    {"image": "assets/images/6.jpg", "letter": "6"},
     {"image": "assets/images/4.jpg", "letter": "7"},
     {"image": "assets/images/4.jpg", "letter": "8"},
     {"image": "assets/images/4.jpg", "letter": "9"},
