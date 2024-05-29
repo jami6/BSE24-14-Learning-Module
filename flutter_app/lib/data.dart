@@ -24,6 +24,11 @@ var data = {
   ],
   "Numbers": [
     {"image": "assets/images/3.jpg", "letter": "3"},
-    {"image": "assets/images/4.jpg", "letter": "4"}
+    {"image": "assets/images/4.jpg", "letter": "4"},
+    {"image": "assets/images/4.jpg", "letter": "5"},
+    {"image": "assets/images/4.jpg", "letter": "7"},
+    {"image": "assets/images/4.jpg", "letter": "8"},
+    {"image": "assets/images/4.jpg", "letter": "9"},
+    {"image": "assets/images/4.jpg", "letter": "10"}
   ],
 };

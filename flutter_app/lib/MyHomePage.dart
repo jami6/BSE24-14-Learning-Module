@@ -25,7 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               const SizedBox(height: 20),
               const Text(
-                "What you want to learn today? ????‍????",
+                "Learn how to sign, today!!!",
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,

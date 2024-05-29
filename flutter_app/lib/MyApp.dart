@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/Quiz.dart';
 import 'package:flutter_app/Result.dart';
 
 class MyApp extends StatefulWidget {
@@ -55,8 +54,6 @@ class _MyAppState extends State<MyApp> {
 
   String _message = '';
 
-  //final String _correctAnswer = 'flutter';
-
   var _questionIndex = 0;
 
   var _totalScore = 0;
@@ -107,19 +104,21 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
+        backgroundColor: const Color(0xffA7D397),
         appBar: AppBar(
-          title: const Text('SLC Quiz'),
-          backgroundColor: const Color(0xFF00E676),
+          centerTitle: true,
+          title: const Text("Quick Sign Learning"),
+          elevation: 5,
         ),
-        body: Padding(
-          padding: const EdgeInsets.all(30.0),
-          child:_buildBody(),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children:<Widget>[
+            _buildBody(),
+          ]
         ), //Padding
-      ), //Scaffold
-      debugShowCheckedModeBanner: false,
-    ); //MaterialApp
+      ); //Scaffold
+      //debugShowCheckedModeBanner: false;
   }
 
    Widget _buildBody()
@@ -186,12 +185,6 @@ class _MyAppState extends State<MyApp> {
             child: Text('Next'),
           ),
 
-          // Display the answers
-          // Quiz(
-          //   answerQuestion: _answerQuestion,
-          //   questionIndex: _questionIndex,
-          //   questions: _questions,
-          // ),
         ],
       );
     } else {

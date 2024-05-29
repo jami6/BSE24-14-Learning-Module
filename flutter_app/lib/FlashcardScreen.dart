@@ -64,7 +64,8 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                           child: Center(
                             child: Image.asset(jsonData[_currItem]["image"] ?? "",
                                 fit: BoxFit.cover,
-                                height: 200.0,
+                                width: 300.0,
+                                height: 400.0,
                                 alignment: Alignment.center),
                           ),
                         ),
