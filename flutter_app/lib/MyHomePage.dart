@@ -44,7 +44,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: <Widget>[
                     _buildCard("Alphabet"),
                     _buildCard("Numbers"),
-                    _buildCard("Basics"),
                     _buildQuizCard("Quiz"),
                   ],
                 ),

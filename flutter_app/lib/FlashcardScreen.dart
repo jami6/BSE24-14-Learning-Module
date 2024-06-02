@@ -90,6 +90,15 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                   ElevatedButton(
                       onPressed: () {
                         setState(() {
+                          _currItem = (_currItem - 1) % jsonData.length;
+                          cardKey.currentState?.toggleCardWithoutAnimation();
+                        });
+                      },
+                      child: const Text("Back")),
+                  const SizedBox(height: 20),
+                  ElevatedButton(
+                      onPressed: () {
+                        setState(() {
                           _currItem = (_currItem + 1) % jsonData.length;
                           cardKey.currentState?.toggleCardWithoutAnimation();
                         });

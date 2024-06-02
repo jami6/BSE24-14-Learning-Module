@@ -27,17 +27,17 @@ var data = {
     {"image": "assets/images/Y.jpg", "letter": "Y"},
     {"image": "assets/images/Z.jpg", "letter": "Z"}
   ],
-  "Basics": [
-    {"image": "IMAGE PENDING", "letter": "Hello"},
-    {"image": "IMAGE PENDING", "letter": "Bye"}
-  ],
   "Numbers": [
-    {"image": "assets/images/3.jpg", "letter": "3"},
-    {"image": "assets/images/4.jpg", "letter": "4"},
-    {"image": "assets/images/4.jpg", "letter": "5"},
-    {"image": "assets/images/4.jpg", "letter": "7"},
-    {"image": "assets/images/4.jpg", "letter": "8"},
-    {"image": "assets/images/4.jpg", "letter": "9"},
-    {"image": "assets/images/4.jpg", "letter": "10"}
+    {"image": "assets/images/0.jpeg", "letter": "0"},
+    {"image": "assets/images/1.jpeg", "letter": "1"},
+    {"image": "assets/images/2.jpeg", "letter": "2"},
+    {"image": "assets/images/3.jpeg", "letter": "3"},
+    {"image": "assets/images/4.jpeg", "letter": "4"},
+    {"image": "assets/images/5.jpeg", "letter": "5"},
+    {"image": "assets/images/6.jpeg", "letter": "6"},
+    {"image": "assets/images/7.jpeg", "letter": "7"},
+    {"image": "assets/images/8.jpeg", "letter": "8"},
+    {"image": "assets/images/9.png", "letter": "9"},
+    {"image": "assets/images/10.jpeg", "letter": "10"}
   ],
 };
